@@ -1,3 +1,4 @@
+import os
 
-WEATHER_TOKEN = 'f71f84b0____48727b23092a6516570'
-TOKEN = '5076770628:____4NR8mT4QZsZLJz8YCnJLIlajxGhLw'
+WEATHER_TOKEN = os.environ.get('WEATHER_TOKEN')
+TOKEN = os.environ.get('TOKEN')
